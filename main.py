@@ -11,14 +11,13 @@ clear()
 In = ""
 Out = ""
 clear()
-print(os.name)
-print(sys.platform)
-print(socket.gethostname())
-print(socket.getfqdn())
+print("           os.name is:", os.name)
+print("      sys.platform is:", sys.platform)
+print("socket.gethostname is:", socket.gethostname())
 In = input('What is your text that needs to be encrypted?\n')
 Out = In
 clear()
-sys.exit("This is not finished!")
+sys.exit("This is not finished, sorry!")
 
 
 
